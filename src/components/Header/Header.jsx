@@ -4,7 +4,7 @@ import { BsFillPersonPlusFill } from 'react-icons/bs';
 import Modal from '../Modal/Modal';
 import ContactForm from '../ContactForm/ContactForm';
 
-function Header() {
+const Header = () => {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => setShowModal(prevShowModal => !prevShowModal);

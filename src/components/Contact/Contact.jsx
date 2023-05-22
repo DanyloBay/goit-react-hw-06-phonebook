@@ -5,7 +5,7 @@ import { Wrapper, Icon, Number, Button } from './Contact.styled';
 import React from 'react';
 
 
-function Contact({ name, number, onDeleteContact }) {
+const Contact = ({ name, number, onDeleteContact }) => {
   return (
     <>
       <Wrapper>

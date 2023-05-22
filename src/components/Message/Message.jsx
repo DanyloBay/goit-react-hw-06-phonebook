@@ -1,7 +1,7 @@
 import { Wrapper, Text } from './Message.styled';
 import React from 'react';
 
-function Message() {
+const Message = () => {
   return (
     <Wrapper>
       <Text>Contact list is empty.</Text>

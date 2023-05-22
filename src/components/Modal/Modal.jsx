@@ -5,7 +5,7 @@ import { createPortal } from 'react-dom';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Backdrop, ModalWrapper, Wrapper, Title, Button } from './Modal.styled';
 
-function Modal({ children, onClose }) {
+const Modal = ({ children, onClose }) => {
   const [modalRoot, setModalRoot] = useState(null);
 
   useEffect(() => {

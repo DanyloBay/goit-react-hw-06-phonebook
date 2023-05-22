@@ -4,9 +4,10 @@ import { Label, Title, Input, Button } from './ContactForm.styled';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import { nanoid } from 'nanoid';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact, getContacts } from '../../redux/contacts-slice';
+import { addContact } from '../../redux/contacts-slice';
+import { getContacts } from '../../redux/constants'
 
-function ContactForm({ onClose }) {
+const ContactForm = ({ onClose }) => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
