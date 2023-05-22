@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { changeFilter } from '../../redux/contacts-slice';
-import { getFilter } from '../../redux/constants'
+import { getFilter } from '../../redux/selectors'
 import { Label, Text, Input } from './Filter.styled';
 import React from 'react';
 

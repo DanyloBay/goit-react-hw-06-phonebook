@@ -5,7 +5,7 @@ import { Report } from 'notiflix/build/notiflix-report-aio';
 import { nanoid } from 'nanoid';
 import { useSelector, useDispatch } from 'react-redux';
 import { addContact } from '../../redux/contacts-slice';
-import { getContacts } from '../../redux/constants'
+import { getContacts } from '../../redux/selectors'
 
 const ContactForm = ({ onClose }) => {
   const [name, setName] = useState('');
